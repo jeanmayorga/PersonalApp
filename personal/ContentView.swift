@@ -8,14 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            ChatGptView()
+              .tabItem {
+                 Image(systemName: "ellipsis.message")
+                 Text("Chat GPT")
+               }
+            WhatsappView()
+              .tabItem {
+                 Image(systemName: "message")
+                 Text("Whatsapp")
+               }
         }
-        .padding()
     }
 }
 

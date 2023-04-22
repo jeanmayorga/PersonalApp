@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313453D729F4775700B8FD6C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 313453D629F4775700B8FD6C /* Alamofire */; };
+		313453DB29F47DE400B8FD6C /* WhatsappService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313453DA29F47DE400B8FD6C /* WhatsappService.swift */; };
+		313453DD29F49BF300B8FD6C /* DeleteIconModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313453DC29F49BF300B8FD6C /* DeleteIconModifier.swift */; };
 		31474BD729F42E23004EF076 /* personalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31474BD629F42E23004EF076 /* personalApp.swift */; };
 		31474BD929F42E23004EF076 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31474BD829F42E23004EF076 /* ContentView.swift */; };
 		31474BDB29F42E24004EF076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31474BDA29F42E24004EF076 /* Assets.xcassets */; };
@@ -14,6 +17,13 @@
 		31474BE829F42E24004EF076 /* personalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31474BE729F42E24004EF076 /* personalTests.swift */; };
 		31474BF229F42E24004EF076 /* personalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31474BF129F42E24004EF076 /* personalUITests.swift */; };
 		31474BF429F42E24004EF076 /* personalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31474BF329F42E24004EF076 /* personalUITestsLaunchTests.swift */; };
+		31474C0129F42EDB004EF076 /* ChatGptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31474C0029F42EDB004EF076 /* ChatGptView.swift */; };
+		31474C0329F42F47004EF076 /* WhatsappView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31474C0229F42F47004EF076 /* WhatsappView.swift */; };
+		31474C0629F42FBC004EF076 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 31474C0529F42FBC004EF076 /* OpenAI */; };
+		31474C0B29F43CA0004EF076 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31474C0A29F43CA0004EF076 /* User.swift */; };
+		31474C0D29F43D20004EF076 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31474C0C29F43D20004EF076 /* Message.swift */; };
+		31474C0F29F440AB004EF076 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31474C0E29F440AB004EF076 /* MessageView.swift */; };
+		3154460429F45A4000F90E22 /* PromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3154460329F45A4000F90E22 /* PromptView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		313453DA29F47DE400B8FD6C /* WhatsappService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsappService.swift; sourceTree = "<group>"; };
+		313453DC29F49BF300B8FD6C /* DeleteIconModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteIconModifier.swift; sourceTree = "<group>"; };
 		31474BD329F42E23004EF076 /* personal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = personal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31474BD629F42E23004EF076 /* personalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalApp.swift; sourceTree = "<group>"; };
 		31474BD829F42E23004EF076 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +56,12 @@
 		31474BED29F42E24004EF076 /* personalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = personalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31474BF129F42E24004EF076 /* personalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalUITests.swift; sourceTree = "<group>"; };
 		31474BF329F42E24004EF076 /* personalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31474C0029F42EDB004EF076 /* ChatGptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGptView.swift; sourceTree = "<group>"; };
+		31474C0229F42F47004EF076 /* WhatsappView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsappView.swift; sourceTree = "<group>"; };
+		31474C0A29F43CA0004EF076 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		31474C0C29F43D20004EF076 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		31474C0E29F440AB004EF076 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		3154460329F45A4000F90E22 /* PromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31474C0629F42FBC004EF076 /* OpenAI in Frameworks */,
+				313453D729F4775700B8FD6C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		313453D429F476F700B8FD6C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				313453DA29F47DE400B8FD6C /* WhatsappService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		31474BCA29F42E23004EF076 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +122,15 @@
 		31474BD529F42E23004EF076 /* personal */ = {
 			isa = PBXGroup;
 			children = (
+				313453D429F476F700B8FD6C /* Services */,
+				31474C0929F43C88004EF076 /* Models */,
 				31474BD629F42E23004EF076 /* personalApp.swift */,
 				31474BD829F42E23004EF076 /* ContentView.swift */,
+				31474C0029F42EDB004EF076 /* ChatGptView.swift */,
+				31474C0E29F440AB004EF076 /* MessageView.swift */,
+				313453DC29F49BF300B8FD6C /* DeleteIconModifier.swift */,
+				31474C0229F42F47004EF076 /* WhatsappView.swift */,
+				3154460329F45A4000F90E22 /* PromptView.swift */,
 				31474BDA29F42E24004EF076 /* Assets.xcassets */,
 				31474BDC29F42E24004EF076 /* Preview Content */,
 			);
@@ -127,6 +162,15 @@
 			path = personalUITests;
 			sourceTree = "<group>";
 		};
+		31474C0929F43C88004EF076 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31474C0A29F43CA0004EF076 /* User.swift */,
+				31474C0C29F43D20004EF076 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +187,10 @@
 			dependencies = (
 			);
 			name = personal;
+			packageProductDependencies = (
+				31474C0529F42FBC004EF076 /* OpenAI */,
+				313453D629F4775700B8FD6C /* Alamofire */,
+			);
 			productName = personal;
 			productReference = 31474BD329F42E23004EF076 /* personal.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +263,10 @@
 				Base,
 			);
 			mainGroup = 31474BCA29F42E23004EF076;
+			packageReferences = (
+				31474C0429F42FBC004EF076 /* XCRemoteSwiftPackageReference "OpenAI" */,
+				313453D529F4775700B8FD6C /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 31474BD429F42E23004EF076 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +309,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3154460429F45A4000F90E22 /* PromptView.swift in Sources */,
+				31474C0329F42F47004EF076 /* WhatsappView.swift in Sources */,
 				31474BD929F42E23004EF076 /* ContentView.swift in Sources */,
+				31474C0B29F43CA0004EF076 /* User.swift in Sources */,
 				31474BD729F42E23004EF076 /* personalApp.swift in Sources */,
+				31474C0F29F440AB004EF076 /* MessageView.swift in Sources */,
+				313453DD29F49BF300B8FD6C /* DeleteIconModifier.swift in Sources */,
+				31474C0129F42EDB004EF076 /* ChatGptView.swift in Sources */,
+				313453DB29F47DE400B8FD6C /* WhatsappService.swift in Sources */,
+				31474C0D29F43D20004EF076 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +643,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		313453D529F4775700B8FD6C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		31474C0429F42FBC004EF076 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		313453D629F4775700B8FD6C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 313453D529F4775700B8FD6C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		31474C0529F42FBC004EF076 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31474C0429F42FBC004EF076 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 31474BCB29F42E23004EF076 /* Project object */;
 }
